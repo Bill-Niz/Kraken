@@ -74,6 +74,7 @@ public struct Network {
         request.httpBody = urlParams.data(using: .utf8)
         request.setValue(credentials.apiKey, forHTTPHeaderField: "API-Key")
         request.setValue(signature, forHTTPHeaderField: "API-Sign")
+        request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         for (key, value) in params {
             request.setValue(value, forHTTPHeaderField: key)
         }
