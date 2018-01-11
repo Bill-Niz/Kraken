@@ -1,4 +1,6 @@
 # Kraken Swift
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBill-Niz%2FKraken.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FBill-Niz%2FKraken?ref=badge_shield)
+
 
 
 ### IMPORTANT
@@ -260,3 +262,7 @@ kraken.addOrder(options:opts completion: { ... })
 kraken.cancelOrder(ids:["UKIYSP-9VN27-AJWWYC"] completion: { ... })
 ```
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBill-Niz%2FKraken.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FBill-Niz%2FKraken?ref=badge_large)
